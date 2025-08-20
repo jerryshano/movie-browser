@@ -1,12 +1,37 @@
-# React + Vite
+# 🎬 Movie Browser App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React app that lets you search for movies using the [TMDb API](https://www.themoviedb.org/documentation/api), view details like posters and titles, and save your favorites.  
 
-Currently, two official plugins are available:
+Built as part of a developer roadmap project to practice:
+- **useState** and **useEffect**
+- **Forms and controlled inputs**
+- **Lifting state up**
+- **Context API**
+- **Basic performance tips**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
+- Search for movies by title  
+- Display movie posters and titles in a responsive grid  
+- Add movies to a **Favorites list** (saved in localStorage)  
+- Clean UI with Tailwind CSS  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+- [React](https://react.dev/) (functional components + hooks)  
+- [Vite](https://vitejs.dev/) for fast dev/build  
+- [Axios](https://axios-http.com/) for API calls  
+- [Tailwind CSS](https://tailwindcss.com/) for styling  
+- [TMDb API](https://www.themoviedb.org/) as the data source  
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/YOUR_USERNAME/movie-browser-app.git
+cd movie-browser-app
+
