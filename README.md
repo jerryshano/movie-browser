@@ -3,7 +3,7 @@
 A simple React app that lets you search for movies using the [TMDb API](https://www.themoviedb.org/documentation/api), view details like posters and titles, and save your favorites.  
 
 Built as part of a developer roadmap project to practice:
-- **useState** and **useEffect**
+- **useCallback**,**useState** and **useEffect**
 - **Forms and controlled inputs**
 - **Lifting state up**
 - **Context API**
