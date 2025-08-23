@@ -4,10 +4,11 @@ import { MovieContextObj } from "../context/MovieContextObj.js";
 
 const MovieList = () => {
   const { movies } = useContext(MovieContextObj);
+
   return (
     <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
       {movies?.map((movie) => (
-        <MovieCard movie={movie} />
+        <MovieCard movie={movie} key={movie.id} />
       ))}
     </div>
   );

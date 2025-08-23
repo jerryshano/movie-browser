@@ -3,6 +3,7 @@ import { MovieContextObj } from "../context/MovieContextObj.js";
 
 const MovieCard = ({ movie }) => {
   const { addFavorite } = useContext(MovieContextObj);
+
   return (
     <div key={movie.id} className="bg-gray-800 p-3 rounded">
       <img
