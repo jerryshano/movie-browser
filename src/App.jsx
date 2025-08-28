@@ -7,7 +7,9 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gray-900 text-white p-5 shadow-md">
       <nav className="sticky top-0 z-50 bg-gray-900 mb-5 flex items-center justify-between">
-        <h1 className="text-3xl font-bold mb-5">🎬 Movie Browser</h1>
+        <Link to="/">
+          <h1 className="text-3xl font-bold mb-5">🎬 Movie Browser</h1>
+        </Link>
         <div className="flex gap-4">
           <Link
             to="/"
